@@ -1,0 +1,63 @@
+/* Common styles for both navigation bars */
+.navbar {
+    display: outside;
+    width: 600px;
+    border: 2px solid black; /* Add a 2px solid black border around the navbar */
+    font-size: 24px;
+    font-family: 'Algerian';
+    margin: 2px auto;
+    background-color: #f0f0f0;
+    padding: 1px;
+    text-align: center;
+    box-sizing:content-box;
+}
+
+h5 {
+    text-align: center;
+}
+
+/* Vertical navigation bar styles */
+.vertical ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 180px;
+}
+
+.vertical li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background-color: lightblue;
+    border-bottom: 1px solid #ccc;
+}
+
+.vertical li a:hover {
+    background-color: orange;
+}
+
+
+
+/* Horizontal navigation bar styles */
+.horizontal ul {
+    list-style-type: none;
+    margin: 100px;
+    padding: 0;
+    display: flex;
+}
+
+.horizontal li a {
+    text-decoration: none;
+    display:outside;
+    padding: 8px;
+    background-color: lightgrey;
+    border-right: 1px solid #ccc;
+}
+
+.horizontal li:last-child a {
+    border-right: none;
+}
+
+.horizontal li a:hover {
+    background-color: darkgrey;
+}

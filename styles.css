@@ -1,0 +1,130 @@
+/* styles.css */
+
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Full viewport height */
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    background-color: #ddd;
+    background-image: url('profile.jpg'); /* Replace 'profile.jpg' with your image URL */
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #333;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: ;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.remember-me label {
+    margin-left: 5px;
+}
+
+button[type="submit"],
+#cancel {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #4CAF50; /* Green */
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover,
+#cancel:hover {
+    background-color: #45a049; /* Darker Green */
+}
+
+p {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff; /* Blue */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+#cancel {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #f44336; /* Red */
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+#cancel:hover {
+    background-color: #d32f2f; /* Darker Red */
+}
+
